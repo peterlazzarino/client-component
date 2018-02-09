@@ -1,8 +1,8 @@
 {
   "name": "client-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render React component on the client side only, for SSR apps",
-  "main": "index.js",
+  "main": "dist/clientOnly.js",
   "scripts": {
     "build": "babel src --ignore __tests__ --out-dir ./dist --copy-files"
   },
