@@ -4,7 +4,7 @@ For server side rendered React applications. A class decorator to restrict rende
 # usage
 
 ```javascript
-import { clientOnly } from 'client-only';
+import { clientOnly } from 'client-component';
 
 @clientOnly
 class ComponentThatAccessesWindowThatIsNotSafeForServerRendering extends Component {
